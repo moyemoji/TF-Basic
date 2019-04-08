@@ -13,7 +13,7 @@ def _bytes_feature(value):
 
 
 mnist = input_data.read_data_sets(
-    "../MNIST_data/",
+    "./mnist_data/",
     one_hot = True
 )
 images = mnist.train.images

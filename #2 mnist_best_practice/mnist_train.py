@@ -62,7 +62,7 @@ def train(mnist):
 
 
 def main(argv=None):
-    mnist = input_data.read_data_sets("../MNIST_data/", one_hot=True)
+    mnist = input_data.read_data_sets("../mnist_data/", one_hot=True)
     train(mnist)
 
 
