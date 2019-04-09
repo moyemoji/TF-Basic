@@ -2,3 +2,4 @@ __pycache__
 /mnist_data/*
 /#2 mnist_best_practice/model/*
 /#3 tfread_write_read/tfrecord/*
+
